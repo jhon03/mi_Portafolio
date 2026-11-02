@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Logo from "./Logo";
 import NavLinks from "./NavLinks";
 
-import "./Navbar.css";
+import "./navBar.css";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
