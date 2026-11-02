@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Componentes
@@ -17,22 +18,18 @@ import "./App.css";
 function App() {
   return (
     <BrowserRouter>
-      <navBar />
+      {/* BARRA DE NAVEGACIÓN */}
+      <Navbar />
 
       <main>
         <Routes>
           <Route path="/" element={<Inicio />} />
-
           <Route path="/formacion" element={<Formacion />} />
 
           <Route path="/proyectos" element={<Proyectos />} />
-
           <Route path="/tejido-social" element={<TejidoSocial />} />
-
           <Route path="/familia" element={<Familia />} />
-
           <Route path="/gustos" element={<Gustos />} />
-
           <Route path="/servicios" element={<Servicios />} />
         </Routes>
       </main>
